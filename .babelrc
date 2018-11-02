@@ -1,9 +1,21 @@
 {
   "presets": [
-    ["env", {
+    ["@babel/preset-env", {
       "modules": false
     }],
-    "stage-0",
-    "react"
+    "@babel/react"
+  ],
+  "plugins": [
+    ["@babel/plugin-transform-runtime", {
+      "runtimeHelpers": false
+    }],
+
+    // Stage 0
+    "@babel/plugin-proposal-function-bind",
+
+    // Stage 3
+    ["@babel/plugin-proposal-class-properties", {
+      "loose": false
+    }]
   ]
 }

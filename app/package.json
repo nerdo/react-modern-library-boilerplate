@@ -1,14 +1,12 @@
 {
-  "name": "react-modern-library-boilerplate-example",
-  "homepage": "https://transitive-bullshit.github.io/react-modern-library-boilerplate",
+  "name": "react-modern-library-boilerplate-app",
   "version": "0.0.0",
   "private": true,
-  "license": "MIT",
   "dependencies": {
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "react-modern-library-boilerplate": "link:..",
+    "react-modern-library-boilerplate": "file:..",
     "react-scripts": "^1.1.4"
   },
   "scripts": {
