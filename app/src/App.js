@@ -1,13 +1,31 @@
-import React, { Component } from 'react'
+import React from 'react'
+import FormEntries from 'tsi-form-entries'
 
-import ExampleComponent from 'react-modern-library-boilerplate'
-
-export default class App extends Component {
-  render () {
-    return (
-      <div>
-        <ExampleComponent text='Modern React component module' />
-      </div>
+function getNumEntries () {
+  return new Promise(function (resolve, reject) {
+    setTimeout(
+      function () {
+        resolve(60)
+      },
+      500
     )
-  }
+  })
+}
+
+// export default class App extends Component {
+//   render () {
+//     return (
+//       <div>
+//         <FormEntries getNumEntries={getNumEntries} />
+//       </div>
+//     )
+//   }
+// }
+
+export default function App () {
+  return (
+    <div>
+      <FormEntries getNumEntries={getNumEntries} />
+    </div>
+  )
 }

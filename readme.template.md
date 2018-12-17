@@ -1,13 +1,13 @@
-# react-modern-library-boilerplate
+# tsi-form-entries
 
 > TODO: Component Description
 
-[![NPM](https://img.shields.io/npm/v/react-modern-library-boilerplate.svg)](https://www.npmjs.com/package/react-modern-library-boilerplate) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/tsi-form-entries.svg)](https://www.npmjs.com/package/tsi-form-entries) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save react-modern-library-boilerplate
+npm install --save tsi-form-entries
 ```
 
 ## Usage
